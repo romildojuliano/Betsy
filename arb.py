@@ -28,11 +28,11 @@ class Arbitrage:
         """Insert docstring here
 
         Args:
-            verbose (bool, optional): Prints more details for visualization. 
-            Defaults to True.
+            verbose (bool, optional): Shows detailed info about the process. Defaults to False.
+            user_input (bool, optional): Determines if the value is given by input or parameter. Defaults to False.
 
         Returns:
-            pd.DataFrame: Dataframe containing the values of the atual bet
+            pd.DataFrame: Dataframe containing data about the bet
         """
         if user_input == True:
             self.total_bet = float(input('total bet: '))
@@ -94,5 +94,5 @@ if __name__ == '__main__':
         total_bet=2500,
         platform="BETSY"
     ).calculate_bets()
-    
+
     print(generic_bet)
