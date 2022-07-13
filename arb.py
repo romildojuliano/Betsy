@@ -1,4 +1,3 @@
-from platform import platform
 import pandas as pd
 import numpy as np
 
@@ -36,8 +35,6 @@ class Arbitrage:
         """
         if user_input == True:
             self.total_bet = float(input('total bet: '))
-
-        
 
         self.bet_a = (self.total_bet * (1 / self.odd_a)) / self.tip
         self.bet_b = (self.total_bet * (1 / self.odd_b)) / self.tip
