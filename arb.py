@@ -13,7 +13,7 @@ class Arbitrage:
     bet_draw: float
     platform: str
 
-    def __init__(self, odd_a: float, odd_b: float, odd_draw: float, platform: str, total_bet: float = np.NaN) -> None:
+    def __init__(self, odd_a: float, odd_b: float, odd_draw: float, platform: str, total_bet: float = 0) -> None:
         self.odd_a = odd_a
         self.odd_b = odd_b
         self.odd_draw = odd_draw
@@ -51,9 +51,11 @@ class Arbitrage:
 
             if self.profit < 0:
                 print(
-                    "Can't guarantee profit with total implied probability \
-                    greater than 100%"
+                    "Can't guarantee profit with total implied probability greater than 100%"
                 )
+        
+        print("******************************************************************************")
+        print("******************************************************************************")
         
         # Returns a pandas dataframe that can be used to store some bets
         # if you plan on storing multiple values, you may want to append
