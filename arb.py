@@ -51,11 +51,12 @@ class Arbitrage:
 
             if self.profit < 0:
                 print(
-                    "Can't guarantee profit with total implied probability greater than 100%"
+                    "Can't guarantee profit with total implied probability greater than 100%\n"
                 )
         
         print("******************************************************************************")
         print("******************************************************************************")
+        print('\n')
         
         # Returns a pandas dataframe that can be used to store some bets
         # if you plan on storing multiple values, you may want to append
