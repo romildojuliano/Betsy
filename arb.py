@@ -54,10 +54,6 @@ class Arbitrage:
                     "Can't guarantee profit with total implied probability greater than 100%\n"
                 )
         
-        print("******************************************************************************")
-        print("******************************************************************************")
-        print('\n')
-        
         # Returns a pandas dataframe that can be used to store some bets
         # if you plan on storing multiple values, you may want to append
         # these values on some kind of main dataframe.
