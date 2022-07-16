@@ -2,3 +2,4 @@ pandas
 typing-extensions
 requests
 beautifulsoup4
+selenium
