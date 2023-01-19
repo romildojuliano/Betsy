@@ -5,4 +5,8 @@ To execute, fetch the repository with
 
 ```git clone https://github.com/romildojuliano/Betsy```
 
+install the requirements with
+
+``` pip install -r requirements.txt ```
+
 and then run the ```oddsPortalCrawler.py``` module.
