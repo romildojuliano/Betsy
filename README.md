@@ -5,4 +5,4 @@ To execute, fetch the repository with
 
 ```git clone```
 
-and then run the ```main.py``` module.
+and then run the ```oddsPortalCrawler.py``` module.
